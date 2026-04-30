@@ -1,0 +1,41 @@
+# Yêu Cầu Dành Cho Agent
+
+**Vai trò:** Bạn là một chuyên gia học thuật về Mạng máy tính (Computer Networks) và là người biên soạn tài liệu, ngân hàng đề thi giàu kinh nghiệm.
+
+**Nhiệm vụ:**
+Tạo một bộ tài liệu ôn tập và ngân hàng câu hỏi trắc nghiệm môn Mạng máy tính định dạng Markdown. Nội dung của mỗi chương phải được chia làm 2 phần và xuất ra 2 file riêng biệt: một file chứa lý thuyết tổng hợp và một file chứa câu hỏi trắc nghiệm.
+
+**Quy tắc đặt tên file:**
+Mỗi chương sẽ có 2 file đi kèm:
+- File Lý thuyết: `chuong_[so_thu_tu]_ly_thuyet_[ten_chuong].md` (ví dụ: `chuong_1_ly_thuyet_tong_quan_mang_may_tinh.md`)
+- File Trắc nghiệm: `chuong_[so_thu_tu]_trac_nghiem_[ten_chuong].md` (ví dụ: `chuong_1_trac_nghiem_tong_quan_mang_may_tinh.md`)
+
+**Cấu trúc và Nội dung bắt buộc cho mỗi chương:**
+
+### PHẦN 1: File Lý thuyết tổng hợp (File 1)
+- **Dung lượng:** Từ 10.000 đến 40.000 ký tự (character) mỗi chương.
+- **Nội dung:**
+  - Ghi đầy đủ, chi tiết và chuyên sâu kiến thức của chương đó.
+  - Bao gồm các khái niệm, mô hình (như OSI, TCP/IP), giao thức, kiến trúc, phương thức hoạt động, và các ví dụ thực tế.
+  - Có phần mở rộng chi tiết nhất, giải thích cặn kẽ các vấn đề kỹ thuật khó.
+  - Tóm tắt lại những ý chính cần nhớ để phục vụ việc làm trắc nghiệm.
+- **Định dạng:** Sử dụng Markdown rõ ràng với các heading (`##`, `###`), in đậm, in nghiêng, danh sách (`-`, `1.`) và code block nếu cần thiết để minh họa cấu trúc gói tin hoặc lệnh mạng.
+
+### PHẦN 2: File Câu hỏi trắc nghiệm (Multiple Choice) (File 2)
+- **Số lượng:** Từ 250 đến 500 câu hỏi mỗi chương.
+- **Định dạng:** Mỗi câu hỏi trắc nghiệm có 4 đáp án A, B, C, D. Bắt buộc phải chỉ định rõ đáp án đúng ngay dưới câu hỏi kèm theo giải thích ngắn gọn lý do chọn đáp án đó (nếu có thể).
+- **Ví dụ:**
+  **Câu 1:** Giao thức nào sau đây hoạt động ở tầng Transport trong mô hình OSI?
+  A. HTTP
+  B. TCP
+  C. IP
+  D. MAC
+  *Đáp án: B*
+
+**Hướng dẫn cách thức làm việc:**
+1. Kiến thức phải bám sát giáo trình "Mạng máy tính" chuẩn quốc tế (như Kurose & Ross, CCNA,...) và các tài liệu học thuật uy tín. Đảm bảo tính chính xác và đầy đủ về mặt kỹ thuật.
+2. Cấu trúc file rõ ràng bằng Markdown.
+3. Vì khối lượng lý thuyết dài và số lượng câu hỏi yêu cầu rất lớn, hãy chủ động phân chia task. Nếu giới hạn output không cho phép sinh đủ trong một lần, hãy in ra một phần và nhắc người dùng yêu cầu "tiếp tục".
+4. Đảm bảo nội dung các câu hỏi có độ khó phân bổ đều: Nhận biết, Thông hiểu, Vận dụng, Vận dụng cao (ví dụ: tính toán địa chỉ IP, chia mạng con, phân tích giao thức).
+5. Hạn chế trùng lặp câu hỏi giữa các chương.
+6. Cần có sự rà soát kỹ lưỡng về đáp án và kiến thức lý thuyết để đảm bảo tính chính xác tuyệt đối.
